@@ -7,7 +7,7 @@ function ListView({ items }) {
         <li key={Math.random()}>
           <div className={'store__product product-store product-store_list-view'}>
             <div className={'product-store__picture-list'}>
-              <img src={`./store/img/${item.img}`} alt={item.img} />
+              <img src={item.img} alt={item.img} />
             </div>
             <div className={'product-store__title'}>{item.name}</div>
             <div className={'product-store__color'}>{item.color}</div>

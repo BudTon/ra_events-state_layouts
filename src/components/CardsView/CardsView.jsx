@@ -13,7 +13,7 @@ function CardsView({ cards }) {
               </header>
 
               <div className={'product-store__picture-card'}>
-                <img src={`./store/img/${card.img}`} alt={card.name} />
+                <img src={card.img} alt={card.name} />
               </div>
 
               <footer className={'product-store__footer'}>
